@@ -5,11 +5,13 @@
     <title>
         www.throwlikeapro.com
     </title>
+     <link href="https://fonts.google.com/specimen/Montserrat" rel="stylesheet">
     <link href="styles.css" type="text/css" rel="stylesheet" />
 
 </head>
 
 <body>
+    <!-- Navbar-->
     <div class="navbar">
         <img src="Images/ThrowLikeAProLogo-07.png" alt="Throw Like a Pro Logo" width="116" height="104" />
 
@@ -21,67 +23,94 @@
         </ul>
 
     </div>
+    <!-- Main Article-->
 
     <div class="content">
         <div class="article">
 
             <h1> Dr. Andrews releases 'Throw Like a Pro' app to help reduce elbow injuries </h1>
             <div class="article-body">
-                 <p> Dr. James Andrews and Dr. Kevin Wilk have released the 'Throw Like a Pro' app. designed to help reduce the
+                <p> Dr. James Andrews and Dr. Kevin Wilk have released the 'Throw Like a Pro' app. designed to help reduce the
                     number of elbow injuries, specifically Tommy John surgery. They "anticipate a 60% reduction in overuse
                     related baseball injuries in the coming years" if the app is used properly. according to the press release.
                 </p>
             </div>
-
-            <button>
             <a href="https://www.cbssports.com/mlb/news/dr-andrews-releases-throw-like-a-pro-app-to-help-reduce-elbow-injuries/" target=_blank>
-               
+            <button type="button" onclick="LearnMore()">
             LEARN MORE
-                
+            </button>   
          </a>
-        </button>
         </div>
-        <div class= "phone">
-        <img src="Images/phone.png" class="phone" />
+        <div class="phone">
+            <img src="Images/phone.png" class="phone" />
         </div>
 
     </div>
     <!-- Info Link Boxes -->
     <div class="infobox">
-    <div class="info">
-        <img src="Images/photo1-03.png" width="399" height="199">
-        <h3> James Andrews on CBS News</h3>
-        <p class="linktext">Watch the CBS News special, "Dr. Andrews: The most important man in sports/"</p>
-        <button>
-        <a href="https://www.cbsnews.com/videos/dr-james-andrews-the-most-important-man-in-sports/"
-            target="_blank">
+        <div class="info">
+            <img src="Images/photo1-03.png" width="399" height="199">
+            <h3> James Andrews on CBS News</h3>
+            <p class="linktext">Watch the CBS News special, "Dr. Andrews: The most important man in sports/"</p>
+            <a href="https://www.cbsnews.com/videos/dr-james-andrews-the-most-important-man-in-sports/" target="_blank">
+            <button type="button" onclick="More1()">
             MORE
+            </button>
         </a>
-        </button>
-    </div>
+        </div>
 
-    <div class="info">
-        <img src="Images/photo2-04.png"  width="399" height="199">
-        <h3>Jersey Watch Network </h3>
-        <p> Jersey watch network named TLAP in "The Best Apps for Your Team."</p>
-        <button>
+        <div class="info">
+            <img src="Images/photo2-04.png" width="399" height="199">
+            <h3>Jersey Watch Network </h3>
+            <p> Jersey watch network named TLAP in "The Best Apps for Your Team."</p>
+
             <a href="http://toporthoapps.com/2014/07/07/throw-like-a-pro/" target="_blank">
+                <button type="button" onclick="More2()">
                 MORE
+                </button>
         </a>
-    </button>
+        </div>
+
+        <div class="info">
+            <img src="Images/photo3-05.png" width="399" height="199">
+            <h3>Tommy John Surgery </h3>
+            <p> Learn more about the surgery TLAP is trying to prevent and how you can help.</p>
+            <a href="https://www.baseball-reference.com/bullpen/Tommy_John_surgery" target="_blank">
+        <button type="button"onclick="More3()">
+            MORE
+       </button>
+    </a>
+        </div>
     </div>
 
-    <div class="info">
-        <img src="Images/photo3-05.png" width="399" height="199">
-        <h3>Tommy John Surgery </h3>
-        <p> Learn more about the surgery TLAP is trying to prevent and how you can help.</p>
-        <button>
-        <a href="https://www.baseball-reference.com/bullpen/Tommy_John_surgery" target="_blank">
-                MORE
-        </a>
-    </button>
-    </div>
-</div>
 </body>
+<!-- Button Functions -->
+<script type="text/javascript">
+    function LearnMore() {
+        alert('This is Awesome')
+
+    }
+    function More1() {
+        alert(" Awesome sauce")
+
+    }
+    function More2() {
+        alert("Woohoo!!!")
+
+    }
+    function More3() {
+        alert("The End")
+
+    }
+
+</script>>
 
 </html>
+<!--<button type="button" onclick="alertMe()">
+        Click
+    </button>
+    <script type="text/javascript">
+    function alertMe() {
+        alert("hello")
+    }
+    </script> -->

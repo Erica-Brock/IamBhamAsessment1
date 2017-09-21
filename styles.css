@@ -1,6 +1,10 @@
-* {
-    border:solid black; 
+* { 
     box-sizing: border-box;
+}
+body{
+    font-family: Montserrat, sans-serif;
+    padding:1em 0 0 0;
+    margin: 0;
 }
 .navbar{
     background-color: White;
@@ -31,7 +35,6 @@ li {
     width: 100%;
     height: 32em;
     color: white;
-    font-family:cursive;
     padding:0;
     margin: 0;
 }
@@ -40,12 +43,18 @@ li {
     overflow-wrap: normal;
     text-align: left;
 }
+.article p{
+    margin-top: 1em;
+    padding-right: 11em;
+    line-height: 2em;
+    font: thin;
+}
 
 
 .article{
     display:inline-block;
     position: relative;
-    left:10em;
+    left:13em;
     bottom: 6em;
     width:40%;
     margin:0;
@@ -59,6 +68,8 @@ li {
     background-color: inherit;
     font-size:16pt;
     padding:.25em;
+    color: white;
+    letter-spacing: .2em;
 
 }
 .phone{
@@ -121,9 +132,4 @@ li {
 a{
     text-decoration: none;
 }
-a:link, a:active, a:visited, a:hover{
-    color:slategray
-}
-.article a:link, .article a:visited{
-    color:white;
-}
+
